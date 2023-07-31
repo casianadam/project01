@@ -1,0 +1,36 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+
+
+
+header{
+    border: 1px solid red;
+}
+
+.mainNav{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+.mainNav li{
+    outline: 1px solid red;
+}
+
+.logo{
+    display: none
+}
+
+@media screen and (min-width: 668px) {
+    
+    .mainNav{
+        background-color: yellow;
+    }
+    .logo {
+        display: block;
+    }
+}
