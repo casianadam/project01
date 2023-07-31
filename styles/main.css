@@ -1,39 +1,36 @@
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
 
-
-
-
-
-header{
-    border: 1px solid red;
-}
-
-.mainNav{
-    background-color: green;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 2rem;
-}
-
-.mainNav li{
-    outline: 1px solid red;
-}
-
-.logo{
-    display: none
-}
-
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 768px) {
     
-    .mainNav{
-        background-color: yellow;
-    }
-    .logo {
-        display: block;
-    }
 }
 
 
+.borderStyling{
+    border:2px solid red
+}
+.sectionStyling {
+            background-color: lightblue;
+            padding-left: 20px;
+            padding-right:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            max-width: 30%;
+            width: auto;
 
+        }
+/* PSEUDO CLASSES */
+.sectionStyling:hover{
+background-color: red;
+color: white;
+}
+#partnerClients{
+    background-color: white;
+}
+.SectionsWrapper{
+    border: 2px dotted purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
